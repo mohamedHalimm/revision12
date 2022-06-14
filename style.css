@@ -1,0 +1,30 @@
+.titre1 {
+    color: rgb(140, 222, 117);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aqua;
+}
+
+.paragraphe1 {
+    color: green
+}
+
+.navigation {
+    list-style-type: none;
+}
+
+.photo {
+    width: 50px;
+    height: 60px;
+}
+
+.btn {
+    background-color: aqua;
+    /* border-radius: 20%; */
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: red;
+}
