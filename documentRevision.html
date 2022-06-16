@@ -10,17 +10,22 @@
 </head>
 
 <body class="issimu">
-    <nav>
+    <nav id="navigation">
         <ul class="navigation">
-            <li>Acceuil</li>
-            <li>Contact</li>
-            <li>A propos</li>
+            <a href="./index.html">
+                <li>changer vers index</li>
+            </a>
+            <a href="https://www.google.com/">
+                <li>Contact</li>
+            </a>
+            <a href="#apropos">
+                <li>A propos</li>
+            </a>
         </ul>
     </nav>
     <section>
         <h2>Mes connaissance</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium placeat et quae dolorum eius nesciunt
-            ducimus quisquam provident. Dicta quo earum ut ex aspernatur nesciunt illum pariatur enim quisquam natus!
+        <p class="paragraphe1"> <b>Lorem</b> ipsum <u>dolor</u> sit
         </p>
     </section>
 
@@ -28,7 +33,7 @@
         <form>
             <div class="case">
                 <label for="texte">Nom</label>
-                <input type="text" id="texte" placeholder="nadjim">
+                <input type="text" class="input1" id="texte" placeholder="nadjim">
             </div>
             <div class="case">
                 <label for="email">Email</label>
@@ -43,7 +48,7 @@
                 <label for="date1">voiture</label>
 
             </div>
-            <div class="case">
+            <div class="case10">
                 <input type="radio" id="radio1" value="choix1" name="fleure">
                 <label for="radio1">Choix1</label>
 
@@ -53,7 +58,7 @@
                 <input type="radio" id="radio3" value="choix3" name="fleure">
                 <label for="radio3">Choix3</label>
             </div>
-            <div class="case">
+            <div class="case10">
                 <label for="Ville">Ville</label>
                 <select name="Ville" id="Ville">
                     <option value="Mbeni">Mbeni</option>
@@ -63,13 +68,26 @@
             </div>
             <label for="description">description</label>
             <textarea name="description" id="description" cols="20" rows="5" placeholder="ecrire ici ..."></textarea>
+            <div>
 
-            <button>Enregistrer</button>
+                <button class="btn1">Enregistrer</button>
+            </div>
 
         </form>
     </section>
 
-    <!-- <img src="./images/breakthrough.png" alt="photo" class="photo"> -->
+
+    <img src="./images/breakthrough.png" alt="photo" class="photo">
+    <section class="a-propos" id="apropos">
+        <h5>ce ci est une site a propos</h5>
+        <a href="#navigation">
+            <p>a propos</p>
+        </a>
+        <p>
+            sectetur adipisicing elit. Aliquid libero fugit pariatur! Cupiditate tempore
+            ad et nulla quis dolor, aliquam, nisi eum adipisci labore cum quibusdam nihil ex doloremque odit.
+        </p>
+    </section>
 
 </body>
 

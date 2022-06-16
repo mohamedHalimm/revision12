@@ -5,12 +5,13 @@
     background-color: aqua;
 }
 
-.paragraphe1 {
-    color: green
-}
+
 
 .navigation {
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
 }
 
 .photo {
@@ -18,13 +19,29 @@
     height: 60px;
 }
 
-.btn {
-    background-color: aqua;
-    /* border-radius: 20%; */
+.btn1 {
     border: none;
     cursor: pointer;
 }
 
-.btn:hover {
+.btn1:hover {
     background-color: red;
+}
+
+.input1 {
+    border: 3px solid black;
+}
+
+.paragraphe1 {
+    border: 3px solid red;
+}
+
+.case {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1 {
+    padding: 20px;
+    margin: 10px 0;
 }
